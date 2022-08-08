@@ -15,7 +15,7 @@ public class JwtUtils {
     
     private static Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
-    @Value("${muzick.props.jwtSecret}")
+    @Value("${nasa.prop.jwtsecret}")
     private String jwtSecret;
 
 //    @Value("${muzick.props.jwtExpirationMs}")
